@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Paisa Geek</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <div class="logotipo">
+          <a href="index.html"
+            ><img
+              src="images/paisa-geek-logo.PNG"
+              alt="Logotipo de la tienda de computadores Paisa Geek"
+          /></a>
+        </div>
+        <div class="navbar-menu">
+          <nav id="nav-bar">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="#">Descuento</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="main-title">
+          <h1>Paisa Geek</h1>
+          <div class="title-description">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+              officia, porro tempore non modi dignissimos officiis quod, nulla
+              dolores doloribus sit ratione! Iusto voluptatum sint ipsum enim
+              nostrum. Quasi, debitis.
+            </p>
+            <button class="title-btn">Empecemos &#8594;</button>
+          </div>
+        </div>
+        <div class="formulario-compra">
+          <h2>Valida el descuento de tu compra</h2>
+          <form>
+            <div class="form-section">
+              <label for="cantidad" id="label-cantidad"
+                >Cantidad de computadores comprados</label
+              >
+              <input
+                id="cantidad"
+                name="cantidad"
+                type="text"
+                placeholder="Ingrese un valor numérico"
+                required
+              />
+            </div>
+            <button type="button" id="calcular" onclick="Calcular()">
+              Calcular
+            </button>
+            <div class="form-section">
+              <h2>Orden de compra</h2>
+              <label for="valor" id="label-valor">Valor de compra</label>
+              <input id="valor" name="valor" type="text" />
+              <label for="descuento" id="label-descuento"
+                >Valor del descuento</label
+              >
+              <input id="descuento" name="descuento" type="text" />
+              <label for="total" id="label-total">Total a pagar</label>
+              <input id="total" name="total" type="text" />
+              <p id="mensaje"></p>
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <h4>Sígueme en:</h4>
+        <ul>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Facebook</li>
+          <li>Youtube</li>
+        </ul>
+        <br />
+        <hr />
+        <p class="copyright">
+          Derechos reservados 2021 - Johan Alexander Rojas Suárez
+        </p>
+      </footer>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
